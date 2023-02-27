@@ -1,5 +1,5 @@
 {
-    "name": "003_TGAM_AttenSleep_Based_SleepImprove_Classcial",
+    "name": "005_TGAM_RLSF_TFSI_realENV",
     "n_gpu": 1,
     "arch": {
         "type": "AttnSleep",
