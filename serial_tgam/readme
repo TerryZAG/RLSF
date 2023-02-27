@@ -1,0 +1,7 @@
+This is the Tool for receiving tgam EEG in real time
+It is created by zt
+
+python       3.7
+pyserial     3.5
+Numpy >= 1.9.1
+pyEDFlib 0.1.14

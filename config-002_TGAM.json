@@ -1,0 +1,33 @@
+{
+    "name": "002_sleep_stage_TGAM",
+    "n_gpu": 1,
+    "arch": {
+        "type": "AttnSleep",
+        "args": {}
+    },
+    "data_loader": {
+        "args": {
+            "batch_size": 128,
+            "num_folds": 5
+        }
+    },
+    "optimizer": {
+        "type": "Adam",
+        "args": {
+            "lr": 0.0005,
+            "weight_decay": 0.0005,
+            "amsgrad": true
+        }
+    },
+    "loss": "weighted_CrossEntropyLoss",
+    "metrics": [
+        "accuracy"
+    ],
+    "trainer": {
+        "epochs": 200,
+        "save_dir": "saved/",
+        "save_period": 30,
+        "verbosity": 2,
+        "monitor": "min val_loss"
+    }
+}
