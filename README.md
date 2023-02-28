@@ -23,7 +23,7 @@ As informatization 3.0 accelerates the pace of people's life and work, people's 
 - scipy==1.7.3
 - tensorboard=2.9.1
 - tslearn==0.5.2
-- vs2015_runtime==14.27.29016
+- pywin32==304
 
 ## Prepare datasets
 > The processed TGAM datasets are now available [on this Dataverse](https://github.com/TerryZAG/TGAM-datasets-for-RLSF.git)
